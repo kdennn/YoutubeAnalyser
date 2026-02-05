@@ -8,7 +8,7 @@ This project processes YouTube watch history JSON files to identify viewing patt
 
 ## Why This Approach?
 
-The YouTube API has a 50 requests/day limit, making it impractical for analyzing thousands of videos. Checking individual video durations via `yt-dlp` would require downloading metadata for every video (40,000+ in some cases). 
+The YouTube API has a 50 requests/day limit, making it impractical for analyzing thousands of videos. Checking individual video durations via `yt-dlp` would require downloading metadata for every video (40,000+ in my case). 
 
 Instead, what I did was:
 1. Groups videos by channel
