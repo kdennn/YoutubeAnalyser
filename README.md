@@ -1,7 +1,4 @@
 # YoutubeAnalyser
-A script to Analyse Youtube watchhistory takeout file 
-
-# YoutubeAnalyser
 
 A Python tool for analyzing YouTube watch history data exported from Google Takeout, with filtering of YouTube Shorts to analyse watch paterns
 
